@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+body{ padding:0; margin:0; background:url(bg.jpg) repeat; font-family:Verdana, Geneva, sans-serif; font-size:12px; line-height:18px; color:#333;}
+p{ text-align:justify;}
+.main_content{ background:#fff; margin-left:7%; margin-right:7%; margin-top:34px;}
+.logo-main{ width:100%;text-align:center;}
+.logo{ width:50%; margin-left:auto; margin-right:auto; padding-top:20px;}
+.logo img{ width:100%;}
+.content{ padding:20px;}

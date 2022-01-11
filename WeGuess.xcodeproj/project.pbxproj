@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5017EAC31903034F00963A26 /* Contm.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5017EAC21903034F00963A26 /* Contm.ttf */; };
+		5017EACA1903182400963A26 /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 5017EAC91903182400963A26 /* UIButton+TCCustomFont.m */; };
+		5017EACD1903187200963A26 /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 5017EACC1903187200963A26 /* UILabel+TCCustomFont.m */; };
+		5017EAD0190318B100963A26 /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 5017EACF190318B100963A26 /* UITextField+TCCustomFont.m */; };
+		5017EAD31904007D00963A26 /* UserInvoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5017EAD21904007D00963A26 /* UserInvoiceTableViewController.m */; };
+		5017EAD51906E3D100963A26 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5017EAD41906E3D100963A26 /* AudioToolbox.framework */; };
+		5017EAD71906E3F200963A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5017EAD61906E3F200963A26 /* Foundation.framework */; };
+		504B516A18F90D10005586E7 /* ModalPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504B516918F90D10005586E7 /* ModalPickerViewController.m */; };
+		50A6918218FD28C60079AF20 /* UserRankModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A6918118FD28C60079AF20 /* UserRankModel.m */; };
+		50B07CA418FAD26B00FACC63 /* HorizontalPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B07C9C18FAD26B00FACC63 /* HorizontalPickerView.m */; };
+		50B07CA518FAD26B00FACC63 /* HPCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B07C9E18FAD26B00FACC63 /* HPCollectionVC.m */; };
+		50B07CA618FAD26B00FACC63 /* HPCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B07CA018FAD26B00FACC63 /* HPCollectionViewCell.m */; };
+		50B07CA718FAD26B00FACC63 /* HPCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B07CA218FAD26B00FACC63 /* HPCollectionViewFlowLayout.m */; };
+		50B07CAA18FB1C0500FACC63 /* TeamDetailsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B07CA918FB1C0500FACC63 /* TeamDetailsModel.m */; };
+		511FFD6418E2B98D00D88A24 /* WeGuessRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 511FFD6318E2B98D00D88A24 /* WeGuessRootViewController.m */; };
+		511FFF5E18E2DF2600D88A24 /* StandingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 511FFF5D18E2DF2600D88A24 /* StandingsViewController.m */; };
+		511FFF6118E2DF8800D88A24 /* AccountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 511FFF6018E2DF8800D88A24 /* AccountsViewController.m */; };
+		512DD2DF18E20349005BB7E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512DD2DE18E20349005BB7E8 /* CoreGraphics.framework */; };
+		512DD2E118E20349005BB7E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512DD2E018E20349005BB7E8 /* UIKit.framework */; };
+		512DD2E718E20349005BB7E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 512DD2E518E20349005BB7E8 /* InfoPlist.strings */; };
+		512DD2E918E20349005BB7E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 512DD2E818E20349005BB7E8 /* main.m */; };
+		512DD2ED18E20349005BB7E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 512DD2EC18E20349005BB7E8 /* AppDelegate.m */; };
+		512DD2F018E20349005BB7E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512DD2EE18E20349005BB7E8 /* Main.storyboard */; };
+		512DD2F618E20349005BB7E8 /* PredictionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512DD2F518E20349005BB7E8 /* PredictionsViewController.m */; };
+		512DD2FF18E20349005BB7E8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512DD2FE18E20349005BB7E8 /* XCTest.framework */; };
+		512DD30118E20349005BB7E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512DD2E018E20349005BB7E8 /* UIKit.framework */; };
+		512DD30918E20349005BB7E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 512DD30718E20349005BB7E8 /* InfoPlist.strings */; };
+		512DD30B18E20349005BB7E8 /* WeGuessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 512DD30A18E20349005BB7E8 /* WeGuessTests.m */; };
+		512DD31618E206FA005BB7E8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512DD31518E206FA005BB7E8 /* LoginViewController.m */; };
+		512DD31918E20F5D005BB7E8 /* RegisterUserViewCntroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 512DD31818E20F5D005BB7E8 /* RegisterUserViewCntroller.m */; };
+		514F31BB18F3283D00290B50 /* LeaguesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 514F31BA18F3283D00290B50 /* LeaguesModel.m */; };
+		519BE40918E314B300E51FD6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 519BE40818E314B300E51FD6 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		519F15B618F1D54500DF7B4C /* FavouriteTeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519F15B518F1D54500DF7B4C /* FavouriteTeamsViewController.m */; };
+		51B79DEF18E7F6D000FC082F /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B79DEE18E7F6D000FC082F /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		51BA688318E68F93007F5172 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BA688218E68F93007F5172 /* CoreData.framework */; };
+		51BA688518E6F994007F5172 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 51BA688418E6F994007F5172 /* countries.json */; };
+		51BA688818E71A0B007F5172 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BA688718E71A0B007F5172 /* Utils.m */; };
+		51D1369418E7516D00FE5E01 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D1369318E7516D00FE5E01 /* MBProgressHUD.m */; };
+		6824CB14193E313A000AC013 /* AllMatchesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6824CB13193E313A000AC013 /* AllMatchesTableViewController.m */; };
+		6824CB161940F491000AC013 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6824CB151940F491000AC013 /* Images.xcassets */; };
+		687F2F0D192A5C1300F4E436 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5056476818F7284400185A62 /* FacebookSDK.framework */; };
+		687F2F0F192A75F400F4E436 /* about in Resources */ = {isa = PBXBuildFile; fileRef = 687F2F0E192A75F400F4E436 /* about */; };
+		687F2F11192A765400F4E436 /* help in Resources */ = {isa = PBXBuildFile; fileRef = 687F2F10192A765400F4E436 /* help */; };
+		687F2F14192A76BC00F4E436 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687F2F13192A76BC00F4E436 /* AboutViewController.m */; };
+		687F2F17192A8A8D00F4E436 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687F2F16192A8A8D00F4E436 /* HelpViewController.m */; };
+		687F2F1A192A8D3D00F4E436 /* WeGuessTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687F2F19192A8D3D00F4E436 /* WeGuessTabController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		512DD30218E20349005BB7E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 512DD2D118E20349005BB7E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 512DD2D818E20349005BB7E8;
+			remoteInfo = WeGuess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5017EAC21903034F00963A26 /* Contm.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Contm.ttf; sourceTree = "<group>"; };
+		5017EAC81903182400963A26 /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+TCCustomFont.h"; path = "CustomFont/UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
+		5017EAC91903182400963A26 /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TCCustomFont.m"; path = "CustomFont/UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
+		5017EACB1903187200963A26 /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+TCCustomFont.h"; path = "CustomFont/UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
+		5017EACC1903187200963A26 /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TCCustomFont.m"; path = "CustomFont/UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
+		5017EACE190318B100963A26 /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+TCCustomFont.h"; path = "CustomFont/UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
+		5017EACF190318B100963A26 /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+TCCustomFont.m"; path = "CustomFont/UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
+		5017EAD11904007D00963A26 /* UserInvoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInvoiceTableViewController.h; sourceTree = "<group>"; };
+		5017EAD21904007D00963A26 /* UserInvoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInvoiceTableViewController.m; sourceTree = "<group>"; };
+		5017EAD41906E3D100963A26 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5017EAD61906E3F200963A26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		504B516818F90D10005586E7 /* ModalPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalPickerViewController.h; sourceTree = "<group>"; };
+		504B516918F90D10005586E7 /* ModalPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalPickerViewController.m; sourceTree = "<group>"; };
+		5056476818F7284400185A62 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		50A6918018FD28C60079AF20 /* UserRankModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserRankModel.h; path = Models/UserRankModel.h; sourceTree = "<group>"; };
+		50A6918118FD28C60079AF20 /* UserRankModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserRankModel.m; path = Models/UserRankModel.m; sourceTree = "<group>"; };
+		50B07C9918FAD26B00FACC63 /* HorizontalPickerGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalPickerGlobal.h; sourceTree = "<group>"; };
+		50B07C9A18FAD26B00FACC63 /* HorizontalPickerView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HorizontalPickerView-Prefix.pch"; sourceTree = "<group>"; };
+		50B07C9B18FAD26B00FACC63 /* HorizontalPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalPickerView.h; sourceTree = "<group>"; };
+		50B07C9C18FAD26B00FACC63 /* HorizontalPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalPickerView.m; sourceTree = "<group>"; };
+		50B07C9D18FAD26B00FACC63 /* HPCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCollectionVC.h; sourceTree = "<group>"; };
+		50B07C9E18FAD26B00FACC63 /* HPCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPCollectionVC.m; sourceTree = "<group>"; };
+		50B07C9F18FAD26B00FACC63 /* HPCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCollectionViewCell.h; sourceTree = "<group>"; };
+		50B07CA018FAD26B00FACC63 /* HPCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPCollectionViewCell.m; sourceTree = "<group>"; };
+		50B07CA118FAD26B00FACC63 /* HPCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		50B07CA218FAD26B00FACC63 /* HPCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		50B07CA318FAD26B00FACC63 /* HPickerDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPickerDefinitions.h; sourceTree = "<group>"; };
+		50B07CA818FB1C0500FACC63 /* TeamDetailsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamDetailsModel.h; path = Models/TeamDetailsModel.h; sourceTree = "<group>"; };
+		50B07CA918FB1C0500FACC63 /* TeamDetailsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamDetailsModel.m; path = Models/TeamDetailsModel.m; sourceTree = "<group>"; };
+		511FFD6218E2B98D00D88A24 /* WeGuessRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeGuessRootViewController.h; sourceTree = "<group>"; };
+		511FFD6318E2B98D00D88A24 /* WeGuessRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeGuessRootViewController.m; sourceTree = "<group>"; };
+		511FFF5C18E2DF2600D88A24 /* StandingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandingsViewController.h; sourceTree = "<group>"; };
+		511FFF5D18E2DF2600D88A24 /* StandingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandingsViewController.m; sourceTree = "<group>"; };
+		511FFF5F18E2DF8800D88A24 /* AccountsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountsViewController.h; sourceTree = "<group>"; };
+		511FFF6018E2DF8800D88A24 /* AccountsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountsViewController.m; sourceTree = "<group>"; };
+		512DD2D918E20349005BB7E8 /* WeGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		512DD2DE18E20349005BB7E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		512DD2E018E20349005BB7E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		512DD2E418E20349005BB7E8 /* WeGuess-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeGuess-Info.plist"; sourceTree = "<group>"; };
+		512DD2E618E20349005BB7E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		512DD2E818E20349005BB7E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		512DD2EA18E20349005BB7E8 /* WeGuess-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeGuess-Prefix.pch"; sourceTree = "<group>"; };
+		512DD2EB18E20349005BB7E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		512DD2EC18E20349005BB7E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		512DD2EF18E20349005BB7E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		512DD2F418E20349005BB7E8 /* PredictionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PredictionsViewController.h; sourceTree = "<group>"; };
+		512DD2F518E20349005BB7E8 /* PredictionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PredictionsViewController.m; sourceTree = "<group>"; };
+		512DD2FD18E20349005BB7E8 /* WeGuessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeGuessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		512DD2FE18E20349005BB7E8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		512DD30618E20349005BB7E8 /* WeGuessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeGuessTests-Info.plist"; sourceTree = "<group>"; };
+		512DD30818E20349005BB7E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		512DD30A18E20349005BB7E8 /* WeGuessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeGuessTests.m; sourceTree = "<group>"; };
+		512DD31418E206FA005BB7E8 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		512DD31518E206FA005BB7E8 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		512DD31718E20F5D005BB7E8 /* RegisterUserViewCntroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterUserViewCntroller.h; sourceTree = "<group>"; };
+		512DD31818E20F5D005BB7E8 /* RegisterUserViewCntroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterUserViewCntroller.m; sourceTree = "<group>"; };
+		514F31B918F3283D00290B50 /* LeaguesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeaguesModel.h; path = Models/LeaguesModel.h; sourceTree = "<group>"; };
+		514F31BA18F3283D00290B50 /* LeaguesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeaguesModel.m; path = Models/LeaguesModel.m; sourceTree = "<group>"; };
+		519BE40718E314B300E51FD6 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		519BE40818E314B300E51FD6 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		519F15B418F1D54500DF7B4C /* FavouriteTeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FavouriteTeamsViewController.h; path = ../FavouriteTeamsViewController.h; sourceTree = "<group>"; };
+		519F15B518F1D54500DF7B4C /* FavouriteTeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FavouriteTeamsViewController.m; path = ../FavouriteTeamsViewController.m; sourceTree = "<group>"; };
+		51B79DED18E7F6D000FC082F /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		51B79DEE18E7F6D000FC082F /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		51BA688218E68F93007F5172 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		51BA688418E6F994007F5172 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		51BA688618E71A0B007F5172 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		51BA688718E71A0B007F5172 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		51D1369218E7516D00FE5E01 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		51D1369318E7516D00FE5E01 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		6824CB12193E313A000AC013 /* AllMatchesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllMatchesTableViewController.h; sourceTree = "<group>"; };
+		6824CB13193E313A000AC013 /* AllMatchesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllMatchesTableViewController.m; sourceTree = "<group>"; };
+		6824CB151940F491000AC013 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		687F2F0E192A75F400F4E436 /* about */ = {isa = PBXFileReference; lastKnownFileType = folder; path = about; sourceTree = "<group>"; };
+		687F2F10192A765400F4E436 /* help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = help; sourceTree = "<group>"; };
+		687F2F12192A76BC00F4E436 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		687F2F13192A76BC00F4E436 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		687F2F15192A8A8D00F4E436 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		687F2F16192A8A8D00F4E436 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		687F2F18192A8D3D00F4E436 /* WeGuessTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeGuessTabController.h; sourceTree = "<group>"; };
+		687F2F19192A8D3D00F4E436 /* WeGuessTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeGuessTabController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		512DD2D618E20349005BB7E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687F2F0D192A5C1300F4E436 /* FacebookSDK.framework in Frameworks */,
+				5017EAD71906E3F200963A26 /* Foundation.framework in Frameworks */,
+				5017EAD51906E3D100963A26 /* AudioToolbox.framework in Frameworks */,
+				51BA688318E68F93007F5172 /* CoreData.framework in Frameworks */,
+				512DD2DF18E20349005BB7E8 /* CoreGraphics.framework in Frameworks */,
+				512DD2E118E20349005BB7E8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512DD2FA18E20349005BB7E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512DD2FF18E20349005BB7E8 /* XCTest.framework in Frameworks */,
+				512DD30118E20349005BB7E8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5017EAC7190317E800963A26 /* CustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				5017EAC81903182400963A26 /* UIButton+TCCustomFont.h */,
+				5017EAC91903182400963A26 /* UIButton+TCCustomFont.m */,
+				5017EACB1903187200963A26 /* UILabel+TCCustomFont.h */,
+				5017EACC1903187200963A26 /* UILabel+TCCustomFont.m */,
+				5017EACE190318B100963A26 /* UITextField+TCCustomFont.h */,
+				5017EACF190318B100963A26 /* UITextField+TCCustomFont.m */,
+			);
+			name = CustomFont;
+			sourceTree = "<group>";
+		};
+		50B07C9818FAD26B00FACC63 /* HorizontalPicker */ = {
+			isa = PBXGroup;
+			children = (
+				50B07C9918FAD26B00FACC63 /* HorizontalPickerGlobal.h */,
+				50B07C9A18FAD26B00FACC63 /* HorizontalPickerView-Prefix.pch */,
+				50B07C9B18FAD26B00FACC63 /* HorizontalPickerView.h */,
+				50B07C9C18FAD26B00FACC63 /* HorizontalPickerView.m */,
+				50B07C9D18FAD26B00FACC63 /* HPCollectionVC.h */,
+				50B07C9E18FAD26B00FACC63 /* HPCollectionVC.m */,
+				50B07C9F18FAD26B00FACC63 /* HPCollectionViewCell.h */,
+				50B07CA018FAD26B00FACC63 /* HPCollectionViewCell.m */,
+				50B07CA118FAD26B00FACC63 /* HPCollectionViewFlowLayout.h */,
+				50B07CA218FAD26B00FACC63 /* HPCollectionViewFlowLayout.m */,
+				50B07CA318FAD26B00FACC63 /* HPickerDefinitions.h */,
+			);
+			path = HorizontalPicker;
+			sourceTree = "<group>";
+		};
+		512DD2D018E20349005BB7E8 = {
+			isa = PBXGroup;
+			children = (
+				512DD2E218E20349005BB7E8 /* WeGuess */,
+				512DD30418E20349005BB7E8 /* WeGuessTests */,
+				512DD2DB18E20349005BB7E8 /* Frameworks */,
+				512DD2DA18E20349005BB7E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		512DD2DA18E20349005BB7E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				512DD2D918E20349005BB7E8 /* WeGuess.app */,
+				512DD2FD18E20349005BB7E8 /* WeGuessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		512DD2DB18E20349005BB7E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5017EAD61906E3F200963A26 /* Foundation.framework */,
+				5017EAD41906E3D100963A26 /* AudioToolbox.framework */,
+				5056476818F7284400185A62 /* FacebookSDK.framework */,
+				51BA688218E68F93007F5172 /* CoreData.framework */,
+				512DD2DE18E20349005BB7E8 /* CoreGraphics.framework */,
+				512DD2E018E20349005BB7E8 /* UIKit.framework */,
+				512DD2FE18E20349005BB7E8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		512DD2E218E20349005BB7E8 /* WeGuess */ = {
+			isa = PBXGroup;
+			children = (
+				687F2F10192A765400F4E436 /* help */,
+				687F2F0E192A75F400F4E436 /* about */,
+				5017EAC7190317E800963A26 /* CustomFont */,
+				514F31BC18F3284300290B50 /* Models */,
+				51B79DEC18E7F6D000FC082F /* base64 */,
+				51D1369118E7516D00FE5E01 /* MBProgress */,
+				519BE40618E314B300E51FD6 /* Reachibility */,
+				50B07C9818FAD26B00FACC63 /* HorizontalPicker */,
+				6824CB12193E313A000AC013 /* AllMatchesTableViewController.h */,
+				6824CB13193E313A000AC013 /* AllMatchesTableViewController.m */,
+				519F15B418F1D54500DF7B4C /* FavouriteTeamsViewController.h */,
+				519F15B518F1D54500DF7B4C /* FavouriteTeamsViewController.m */,
+				687F2F15192A8A8D00F4E436 /* HelpViewController.h */,
+				687F2F16192A8A8D00F4E436 /* HelpViewController.m */,
+				687F2F12192A76BC00F4E436 /* AboutViewController.h */,
+				687F2F13192A76BC00F4E436 /* AboutViewController.m */,
+				5017EAD11904007D00963A26 /* UserInvoiceTableViewController.h */,
+				5017EAD21904007D00963A26 /* UserInvoiceTableViewController.m */,
+				512DD2EB18E20349005BB7E8 /* AppDelegate.h */,
+				512DD2EC18E20349005BB7E8 /* AppDelegate.m */,
+				512DD2EE18E20349005BB7E8 /* Main.storyboard */,
+				687F2F18192A8D3D00F4E436 /* WeGuessTabController.h */,
+				687F2F19192A8D3D00F4E436 /* WeGuessTabController.m */,
+				504B516818F90D10005586E7 /* ModalPickerViewController.h */,
+				504B516918F90D10005586E7 /* ModalPickerViewController.m */,
+				511FFF5C18E2DF2600D88A24 /* StandingsViewController.h */,
+				511FFF5D18E2DF2600D88A24 /* StandingsViewController.m */,
+				511FFF5F18E2DF8800D88A24 /* AccountsViewController.h */,
+				511FFF6018E2DF8800D88A24 /* AccountsViewController.m */,
+				511FFD6218E2B98D00D88A24 /* WeGuessRootViewController.h */,
+				511FFD6318E2B98D00D88A24 /* WeGuessRootViewController.m */,
+				512DD31718E20F5D005BB7E8 /* RegisterUserViewCntroller.h */,
+				512DD31818E20F5D005BB7E8 /* RegisterUserViewCntroller.m */,
+				512DD31418E206FA005BB7E8 /* LoginViewController.h */,
+				512DD31518E206FA005BB7E8 /* LoginViewController.m */,
+				512DD2F418E20349005BB7E8 /* PredictionsViewController.h */,
+				512DD2F518E20349005BB7E8 /* PredictionsViewController.m */,
+				512DD2E318E20349005BB7E8 /* Supporting Files */,
+			);
+			path = WeGuess;
+			sourceTree = "<group>";
+		};
+		512DD2E318E20349005BB7E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5017EAC21903034F00963A26 /* Contm.ttf */,
+				6824CB151940F491000AC013 /* Images.xcassets */,
+				51BA688418E6F994007F5172 /* countries.json */,
+				512DD2E418E20349005BB7E8 /* WeGuess-Info.plist */,
+				512DD2E518E20349005BB7E8 /* InfoPlist.strings */,
+				512DD2E818E20349005BB7E8 /* main.m */,
+				512DD2EA18E20349005BB7E8 /* WeGuess-Prefix.pch */,
+				51BA688618E71A0B007F5172 /* Utils.h */,
+				51BA688718E71A0B007F5172 /* Utils.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		512DD30418E20349005BB7E8 /* WeGuessTests */ = {
+			isa = PBXGroup;
+			children = (
+				512DD30A18E20349005BB7E8 /* WeGuessTests.m */,
+				512DD30518E20349005BB7E8 /* Supporting Files */,
+			);
+			path = WeGuessTests;
+			sourceTree = "<group>";
+		};
+		512DD30518E20349005BB7E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				512DD30618E20349005BB7E8 /* WeGuessTests-Info.plist */,
+				512DD30718E20349005BB7E8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		514F31BC18F3284300290B50 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				514F31B918F3283D00290B50 /* LeaguesModel.h */,
+				514F31BA18F3283D00290B50 /* LeaguesModel.m */,
+				50B07CA818FB1C0500FACC63 /* TeamDetailsModel.h */,
+				50B07CA918FB1C0500FACC63 /* TeamDetailsModel.m */,
+				50A6918018FD28C60079AF20 /* UserRankModel.h */,
+				50A6918118FD28C60079AF20 /* UserRankModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		519BE40618E314B300E51FD6 /* Reachibility */ = {
+			isa = PBXGroup;
+			children = (
+				519BE40718E314B300E51FD6 /* Reachability.h */,
+				519BE40818E314B300E51FD6 /* Reachability.m */,
+			);
+			path = Reachibility;
+			sourceTree = "<group>";
+		};
+		51B79DEC18E7F6D000FC082F /* base64 */ = {
+			isa = PBXGroup;
+			children = (
+				51B79DED18E7F6D000FC082F /* NSData+Base64.h */,
+				51B79DEE18E7F6D000FC082F /* NSData+Base64.m */,
+			);
+			path = base64;
+			sourceTree = "<group>";
+		};
+		51D1369118E7516D00FE5E01 /* MBProgress */ = {
+			isa = PBXGroup;
+			children = (
+				51D1369218E7516D00FE5E01 /* MBProgressHUD.h */,
+				51D1369318E7516D00FE5E01 /* MBProgressHUD.m */,
+			);
+			path = MBProgress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		512DD2D818E20349005BB7E8 /* WeGuess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512DD30E18E20349005BB7E8 /* Build configuration list for PBXNativeTarget "WeGuess" */;
+			buildPhases = (
+				512DD2D518E20349005BB7E8 /* Sources */,
+				512DD2D618E20349005BB7E8 /* Frameworks */,
+				512DD2D718E20349005BB7E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeGuess;
+			productName = WeGuess;
+			productReference = 512DD2D918E20349005BB7E8 /* WeGuess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		512DD2FC18E20349005BB7E8 /* WeGuessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512DD31118E20349005BB7E8 /* Build configuration list for PBXNativeTarget "WeGuessTests" */;
+			buildPhases = (
+				512DD2F918E20349005BB7E8 /* Sources */,
+				512DD2FA18E20349005BB7E8 /* Frameworks */,
+				512DD2FB18E20349005BB7E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				512DD30318E20349005BB7E8 /* PBXTargetDependency */,
+			);
+			name = WeGuessTests;
+			productName = WeGuessTests;
+			productReference = 512DD2FD18E20349005BB7E8 /* WeGuessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		512DD2D118E20349005BB7E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Codez;
+				TargetAttributes = {
+					512DD2D818E20349005BB7E8 = {
+						DevelopmentTeam = 4MNATXHFLE;
+					};
+					512DD2FC18E20349005BB7E8 = {
+						TestTargetID = 512DD2D818E20349005BB7E8;
+					};
+				};
+			};
+			buildConfigurationList = 512DD2D418E20349005BB7E8 /* Build configuration list for PBXProject "WeGuess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				he,
+			);
+			mainGroup = 512DD2D018E20349005BB7E8;
+			productRefGroup = 512DD2DA18E20349005BB7E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				512DD2D818E20349005BB7E8 /* WeGuess */,
+				512DD2FC18E20349005BB7E8 /* WeGuessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		512DD2D718E20349005BB7E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687F2F0F192A75F400F4E436 /* about in Resources */,
+				5017EAC31903034F00963A26 /* Contm.ttf in Resources */,
+				6824CB161940F491000AC013 /* Images.xcassets in Resources */,
+				512DD2E718E20349005BB7E8 /* InfoPlist.strings in Resources */,
+				687F2F11192A765400F4E436 /* help in Resources */,
+				51BA688518E6F994007F5172 /* countries.json in Resources */,
+				512DD2F018E20349005BB7E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512DD2FB18E20349005BB7E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512DD30918E20349005BB7E8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		512DD2D518E20349005BB7E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512DD2F618E20349005BB7E8 /* PredictionsViewController.m in Sources */,
+				687F2F1A192A8D3D00F4E436 /* WeGuessTabController.m in Sources */,
+				512DD2ED18E20349005BB7E8 /* AppDelegate.m in Sources */,
+				51BA688818E71A0B007F5172 /* Utils.m in Sources */,
+				5017EACD1903187200963A26 /* UILabel+TCCustomFont.m in Sources */,
+				51B79DEF18E7F6D000FC082F /* NSData+Base64.m in Sources */,
+				50A6918218FD28C60079AF20 /* UserRankModel.m in Sources */,
+				5017EAD31904007D00963A26 /* UserInvoiceTableViewController.m in Sources */,
+				512DD2E918E20349005BB7E8 /* main.m in Sources */,
+				50B07CA418FAD26B00FACC63 /* HorizontalPickerView.m in Sources */,
+				511FFF6118E2DF8800D88A24 /* AccountsViewController.m in Sources */,
+				511FFD6418E2B98D00D88A24 /* WeGuessRootViewController.m in Sources */,
+				687F2F17192A8A8D00F4E436 /* HelpViewController.m in Sources */,
+				50B07CA518FAD26B00FACC63 /* HPCollectionVC.m in Sources */,
+				5017EAD0190318B100963A26 /* UITextField+TCCustomFont.m in Sources */,
+				519F15B618F1D54500DF7B4C /* FavouriteTeamsViewController.m in Sources */,
+				511FFF5E18E2DF2600D88A24 /* StandingsViewController.m in Sources */,
+				504B516A18F90D10005586E7 /* ModalPickerViewController.m in Sources */,
+				514F31BB18F3283D00290B50 /* LeaguesModel.m in Sources */,
+				687F2F14192A76BC00F4E436 /* AboutViewController.m in Sources */,
+				512DD31918E20F5D005BB7E8 /* RegisterUserViewCntroller.m in Sources */,
+				512DD31618E206FA005BB7E8 /* LoginViewController.m in Sources */,
+				6824CB14193E313A000AC013 /* AllMatchesTableViewController.m in Sources */,
+				50B07CA718FAD26B00FACC63 /* HPCollectionViewFlowLayout.m in Sources */,
+				519BE40918E314B300E51FD6 /* Reachability.m in Sources */,
+				5017EACA1903182400963A26 /* UIButton+TCCustomFont.m in Sources */,
+				50B07CA618FAD26B00FACC63 /* HPCollectionViewCell.m in Sources */,
+				51D1369418E7516D00FE5E01 /* MBProgressHUD.m in Sources */,
+				50B07CAA18FB1C0500FACC63 /* TeamDetailsModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512DD2F918E20349005BB7E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512DD30B18E20349005BB7E8 /* WeGuessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		512DD30318E20349005BB7E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 512DD2D818E20349005BB7E8 /* WeGuess */;
+			targetProxy = 512DD30218E20349005BB7E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		512DD2E518E20349005BB7E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				512DD2E618E20349005BB7E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		512DD2EE18E20349005BB7E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				512DD2EF18E20349005BB7E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		512DD30718E20349005BB7E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				512DD30818E20349005BB7E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		512DD30C18E20349005BB7E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		512DD30D18E20349005BB7E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		512DD30F18E20349005BB7E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sudip/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeGuess/WeGuess-Prefix.pch";
+				INFOPLIST_FILE = "WeGuess/WeGuess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		512DD31018E20349005BB7E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sudip/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeGuess/WeGuess-Prefix.pch";
+				INFOPLIST_FILE = "WeGuess/WeGuess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		512DD31218E20349005BB7E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WeGuess.app/WeGuess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeGuess/WeGuess-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WeGuessTests/WeGuessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		512DD31318E20349005BB7E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WeGuess.app/WeGuess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeGuess/WeGuess-Prefix.pch";
+				INFOPLIST_FILE = "WeGuessTests/WeGuessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		512DD2D418E20349005BB7E8 /* Build configuration list for PBXProject "WeGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512DD30C18E20349005BB7E8 /* Debug */,
+				512DD30D18E20349005BB7E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512DD30E18E20349005BB7E8 /* Build configuration list for PBXNativeTarget "WeGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512DD30F18E20349005BB7E8 /* Debug */,
+				512DD31018E20349005BB7E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512DD31118E20349005BB7E8 /* Build configuration list for PBXNativeTarget "WeGuessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512DD31218E20349005BB7E8 /* Debug */,
+				512DD31318E20349005BB7E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 512DD2D118E20349005BB7E8 /* Project object */;
+}
